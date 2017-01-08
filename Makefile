@@ -64,7 +64,7 @@ MORE_CFLAGS += -I/opt/vc/include -I/opt/vc/include/interface/vmcs_host/linux -I/
 
 MORE_CFLAGS += -Isrc/osdep -Isrc -Isrc/include -Isrc/od-pandora -Wno-unused -Wno-format -Wno-write-strings -Wno-multichar -Wno-narrowing -DUSE_SDL
 
-LDFLAGS +=  -lm -lz -lflac -logg -lpng -lmpg123 -lSDL_ttf -lguichan_sdl -lguichan -lxml2 -L/opt/vc/lib 
+LDFLAGS +=  -lm -lz -lflac -logg -lpng -lmpg123 -lguichan_sdl -lguichan -lxml2 -L/opt/vc/lib 
 #LDFLAGS += -ldl -lgcov --coverage
 
 ifndef DEBUG
